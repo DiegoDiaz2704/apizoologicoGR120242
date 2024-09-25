@@ -1,5 +1,10 @@
 const mongoose = require("mongoose"); // importando el componente mogoose
 const animalSchema = mongoose.Schema({
+
+    codigo:{
+        type: String,
+        requiered: true
+    },
     nombre: {
         type: String,
         required: true,
